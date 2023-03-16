@@ -1,0 +1,266 @@
+body{
+  background-color:darkgray ;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+
+.orignal_range_skill {
+  border: solid; width: 60%; border-radius: 60px; text-align: center;
+  box-sizing: inherit;
+}
+.range_skill {
+  width:90%; 
+  
+ background-color: rgb(242 255 213 / 80%); 
+  border-radius: 60px;
+  box-sizing: inherit;
+}
+.range_skill:hover{
+  background-color: rgb(176 50 233 / 68%);
+  border-color: black;
+}
+
+
+.pages_con {
+  
+  padding: 10px;
+  width: auto;
+  height: 30px;
+  position: sticky;
+  right: 10px;
+  text-align: right;
+  text-shadow: currentColor;
+  margin-left: 60%;
+  background-color:;
+  box-sizing: inherit;
+   content: "";
+    display: table;
+    clear: both;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.pages_con:hover{
+  background-color: #fff;
+  text-shadow: aliceblue;
+}
+.bi-file-earmark-person-fill{
+  width: 40%;
+
+  position: sticky;
+  box-sizing: inherit;
+}
+.pages_con a{
+  font-size: 30px;
+  margin-left: 20px;
+  
+
+  border-radius: 10px;
+  box-sizing: inherit;
+
+
+}
+.header_fixed{
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.header_fixed:hover{
+  box-shadow:
+     0 0 60px 20px #fff,  /* inner white */
+    0 0 100px 20px #fff;
+}
+
+.main_part .Skills_countener{
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: aliceblue;
+
+    
+  
+}
+
+
+.nevigation{
+  margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: aliceblue;
+    padding: 10px;
+
+
+}
+.nevigation:hover{
+   box-shadow: 
+    0 0 60px 5px black,  /* inner white */
+    0 0 100px 10px black; /* middle magenta */
+}
+.main_part .Skills_countener:hover {
+
+box-shadow:
+     0 0 60px 5px black,  /* inner white */
+    0 0 100px 10px black; /* middle magenta */
+    background-color: darkgray;
+    color: aliceblue;
+
+}
+
+  .bi-border-width {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background: transparent ;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+  }
+
+/*
+.personal_details p{
+  visibility: hidden;
+  position: hidden;
+
+}*/
+
+.personal_details {
+  height: 60px;
+  overflow: hidden;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+}
+.personal_details:hover {
+  height: 345px;
+  background-color: azure;
+  padding: 40px;
+ 
+}
+h5{
+  font-size: 20px;
+}
+h6{
+  font-size: 18px;
+}
+p{
+  font-size: 16px;
+}
+
+.Education_d{
+
+}
+.University{
+  height: 120px;
+  overflow: hidden;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+}
+.University:hover{
+  height: 250px;
+   background-color: azure;
+   font-size: +20px;
+}
+.School{
+    height: 60px;
+  overflow: hidden;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+}
+.School:hover{
+   height: 250px;
+   background-color: azure;
+   font-size: 30px;
+}
+
+.img{
+  height: 75%;
+  width: 50%;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+  padding-left:20%;
+
+  right: 10px;
+  left: 20px;
+  border-radius: 100%;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+}
+.img:hover{
+  height: 400px;
+  width: 100%;
+  border-radius: 10%;
+  padding-left: 0px;
+  animation-duration: 2s;
+}
+.Download{
+  border: solid;
+  background-color: transparent;
+  color: #fff;
+  margin: 10px;
+  padding: 5px;
+  border-style: double;
+
+}
+.Download:hover{
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 40%;
+}
+.footer{
+  background-color: black ;
+margin: 0%;
+padding: 20px;
+color: #fff;
+border-radius: 30px  30px 0px 0px;
+margin-top: 20px;
+width=device-width;
+height: 100px;
+overflow: hidden;
+ transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+
+
+}
+.footer:hover{
+  height: 500px;
+
+}
+.left_f{
+   float:left;
+   width: auto;
+}
+.slogan{
+  top: 12px;
+  left: 120px;
+}
+.left_f{
+  width: 40%;
+}
+.logo_vinu{
+  height: 55%;
+  width: 70%;
+   transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 1.5s;
+}
+.logo_vinu:hover{
+  height: 70%;
+  width: 100%;
+}
+.TO_connect{
+  position: relative;
+  right: ;
+  width: 60%;
+  float: right;
+}
+#wrapper{
+  display:flex;
+  justify-content:space-between;    
+  }
